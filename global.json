@@ -24,18 +24,50 @@
         "wp-toobar-custom-link/wp-toobar-custom-link.php": "WP Toolbar Custom Link",
         "wp-user-role-renamer/wp-user-role-renamer.php": "WP User Role Renamer"
     },
-
     "paid": {
-        "woocommerce-role-based-price-pro/woocommerce-role-based-price-pro.php": "WooCommerce Role Based Pricing Pro",
-        "woocommerce-bulk-price-updater/woocommerce-bulk-price-updater.php": "WooCommerce Bulk Price Updater",
-        "woocommerce-role-based-force-sell/woocommerce-role-based-force-sell.php": "WooCommerce Role Based Force Sell",
-        "advanced-product-reviews-for-woocommerce/advanced-product-reviews-for-woocommerce.php": "Advanced Product Review For WooCommerce",
-        "wc-role-based-product-hiding/wc-role-based-product-hiding.php": "WooCommerce Role Based Product Hiding",
-        "woocommerce-role-based-up-cross-sell/woocommerce-role-based-up-cross-sell.php": "WooCommerce Role Based UP / Cross Sell",
-        "wc-role-based-payment-shipping-methods/wc-role-based-payment-shipping-methods.php": "WooCommerce Role Based Payment / Shipping Methods",
-        "woocommerce-international-sms/woocommerce-international-sms.php": "WooCommerce International SMS",
-        "woocommerce-role-based-shipping-manager/woocommerce-role-based-shipping-manager.php": "WooCommerce Role Based Shipping Manager",
-        "wc-zip-pin-postal-code-validator/wc-zip-pin-postal-code-validator.php": "WC Zip/Pin/Postal Code Validator",
-        "cf7-international-sms-integration-pro/cf7-international-sms-integration-pro.php": "CF7 International SMS"
+        "woocommerce-role-based-price-pro/woocommerce-role-based-price-pro.php": {
+            "item_id": "14120734",
+            "Name": "WooCommerce Role Based Pricing Pro"
+        },
+        "woocommerce-bulk-price-updater/woocommerce-bulk-price-updater.php": {
+            "item_id": "14276992",
+            "Name": "WooCommerce Bulk Price Updater"
+        },
+        "woocommerce-role-based-force-sell/woocommerce-role-based-force-sell.php": {
+            "item_id": "15369183",
+            "Name": "WooCommerce Role Based Force Sell"
+        },
+        "advanced-product-reviews-for-woocommerce/advanced-product-reviews-for-woocommerce.php": {
+            "item_id": "15385857",
+            "Name": "Advanced Product Review For WooCommerce"
+        },
+        "wc-role-based-product-hiding/wc-role-based-product-hiding.php": {
+            "item_id": "16902144",
+            "Name": "WooCommerce Role Based Product Hiding"
+        },
+        "woocommerce-role-based-up-cross-sell/woocommerce-role-based-up-cross-sell.php": {
+            "item_id": "17219932",
+            "Name": "WooCommerce Role Based UP / Cross Sell"
+        },
+        "wc-role-based-payment-shipping-methods/wc-role-based-payment-shipping-methods.php": {
+            "item_id": "18953727",
+            "Name": "WooCommerce Role Based Payment / Shipping Methods"
+        },
+        "woocommerce-international-sms/woocommerce-international-sms.php": {
+            "item_id": "19471296",
+            "Name": "WooCommerce International SMS"
+        },
+        "woocommerce-role-based-shipping-manager/woocommerce-role-based-shipping-manager.php": {
+            "item_id": "19507616",
+            "Name": "WooCommerce Role Based Shipping Manager"
+        },
+        "wc-zip-pin-postal-code-validator/wc-zip-pin-postal-code-validator.php": {
+            "item_id": "19531662",
+            "Name": "WC Zip/Pin/Postal Code Validator"
+        },
+        "cf7-international-sms-integration-pro/cf7-international-sms-integration-pro.php": {
+            "item_id": "19912360",
+            "Name": "CF7 International SMS"
+        }
     }
 }
