@@ -1,12 +1,26 @@
 {
     "global": {
         "0": {
+            "page": "global",
+            "section": "",
             "question": "How do i style subtitles",
             "answer": "<p>You can style the subtitle with the below css class<br>Global : <code>product-subtitle</code><br>Product Specific : <code>subtitle-99</code></p><p><b>Example CSS </b><br>Below Applies for all product subtitles</p><pre>.product-subtitle{<br> <a href=\"color:green\">color:green</a>;<br>}<br></pre><p>Below Applies for product with <b>99</b> as product ID<br></p><pre>.product-subtitle.subtitle-99{<br> color:red;<br>}<br></pre>"
         },
         "1": {
+            "page": "global",
+            "section": "",
             "question": "How i can add my own HTML render Tag ?",
             "answer": "<p>Just follow the steps below <br>1.<strong> </strong>Use the below function to register the tag first <br></p><pre>add_filter(‘wc_ps_tags’,’register_custom_tag’);<br>function register_custom_tag($tags){<br>    $tags[‘tag_slug’] = ‘Tag Name’;<br>    return $tags;<br>}</pre><p>2.<strong></strong> Now use the below action to render your own tag (<code>wc_ps_subtitle_{tag_slug}</code>) </p><pre>add_action(‘wc_ps_subtitle_tag_slug’,’render_custom_tag’);<br>function render_custom_tag($title,$tag,$pid,$defaults) {<br>    echo ‘”.$title.””;<br>}<br></pre><p><b>Render Function Variable Details</b></p><ul><li><code>$title</code> : Product’s Subtitle</li><li><code>$tag</code> : Call back Tag</li><li><code>$pid</code> : Current Product ID</li><li><code>$defaults</code> : is array of default class & id for the element</li></ul><p> </p>"
+        }
+    },
+    "general": {
+        "cart_page": {
+            "2": {
+                "page": "general",
+                "section": "cart_page",
+                "question": "Subtitle not visible in Cart/Checkout page ?",
+                "answer": "<p>This issue might be with the theme which you are using<br>Please do make sure that your theme has <code>woocommerce_cart_item_name</code> filter in the below files</p><hr><pre>1. your-theme/woocommerce/cart/cart.php<br>2. your-theme/woocommerce/cart/mini-cart.php<br>3. your-theme/woocommerce/cart/review-order.php<br></pre><p><br></p><p><br></p>"
+            }
         }
     }
 }
