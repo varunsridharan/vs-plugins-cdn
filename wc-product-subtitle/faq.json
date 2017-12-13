@@ -21,6 +21,22 @@
                 "question": "Subtitle not visible in Cart/Checkout page ?",
                 "answer": "<p>This issue might be with the theme which you are using<br>Please do make sure that your theme has <code>woocommerce_cart_item_name</code> filter in the below files</p><hr><pre>1. your-theme/woocommerce/cart/cart.php<br>2. your-theme/woocommerce/cart/mini-cart.php<br>3. your-theme/woocommerce/cart/review-order.php<br></pre><p><br></p><p><br></p>"
             }
+        },
+        "checkout_page": {
+            "3": {
+                "page": "general",
+                "section": "checkout_page",
+                "question": "Subtitle not visible in Cart/Checkout page ?",
+                "answer": "<p>This issue might be with the theme which you are using<br>Please do make sure that your theme has <code>woocommerce_cart_item_name</code> filter in the below files</p><hr><pre>1. your-theme/woocommerce/cart/cart.php<br>2. your-theme/woocommerce/cart/mini-cart.php<br>3. your-theme/woocommerce/cart/review-order.php<br></pre>"
+            }
+        },
+        "order_view_page": {
+            "4": {
+                "page": "general",
+                "section": "order_view_page",
+                "question": "Subtitle not visible in Thanks you page & my account order view",
+                "answer": "<p>This issue might be with the theme which you are using<br>Please do make sure that your theme has <code>woocommerce_order_item_name</code> AND <code>woocommerce_order_item_quantity_html</code> filter in the below files</p><hr><b><code>woocommerce_order_item_name</code> filter file list :</b><br><br><pre>1. your-theme/woocommerce/order/order-details-item.php<br>2. your-theme/woocommerce/checkout/form-pay.php<br>3. your-theme/woocommerce/emails/email-order-items.php<br>4. your-theme/woocommerce/emails/plain/email-order-items.php<br></pre><br><b><code>woocommerce_order_item_quantity_html</code> filter file list :</b><br><br><pre>1. your-theme/woocommerce/order/order-details-item.php<br>2. your-theme/woocommerce/checkout/form-pay.php</pre>"
+            }
         }
     }
 }
